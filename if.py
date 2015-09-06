@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3.1
 # Filename : if.py
 
 number = 23
-guess = int(raw_input('Enter an integer : '))
+guess = int(input('Enter an integer : '))
 
 if guess == number:
 	print('Congratulations, you guessed it.')
